@@ -4,7 +4,7 @@ import './Gönderiler.css';
 
 const Gönderiler = (props) => {
   // 🔥 Gönderiler'in ebeveyninin doğru değişkenleri doğru şekilde ilettiğine emin olun!
-  const { gonderiyiBegen, gonderiler } = props;
+  const { gonderiyiBegen, gönderilenProp } = props;
 
   return (
     <div className='posts-container-wrapper'>
